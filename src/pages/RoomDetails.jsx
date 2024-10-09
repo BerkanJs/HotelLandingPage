@@ -43,7 +43,7 @@ const RoomDetails = () => {
                 <p className='mb-12'> Lorem ipsum dolor sit amet, consectetur adipisicing elit. Repudiandae maiores earum nulla id cumque. Nemo officiis consequuntur quia libero harum.</p>
                 <div className='grid grid-cols-3 gap-6 mb-12'>
 
-                 {facilities.map((item,index)=>{
+                 {facilities?.map((item,index)=>{
                   return <div className='flex items-center gap-x-3 flex-1' key={index}>
                      <div className='text-3xl text-amber-500'><item.icon/> </div> 
                      <div className='text-xl'>{item.name} </div>   
